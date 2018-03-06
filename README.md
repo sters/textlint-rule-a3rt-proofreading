@@ -17,9 +17,7 @@ This package is A3RT's UNOFFICIAL.
 
 ## Installation
 
-```
-$ npm install textlint-rule-a3rt-proofreading
-```
+not published yet!
 
 ## Usage
 
