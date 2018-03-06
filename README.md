@@ -4,6 +4,14 @@
 
 [textlint](https://github.com/textlint/textlint) rule that using [A3RT Proofreading API](https://a3rt.recruit-tech.co.jp/product/proofreadingAPI/).
 
+> **A3RT Proofreading API**
+>
+> https://a3rt.recruit-tech.co.jp/product/proofreadingAPI/
+> 
+> The Proofreading API uses LSTM to detect suspicious places as sentences.
+> The model learns the composition of the correct sentences, grammar, word flow from a large amount of Japanese job offer sentence data.
+> Discover spelling errors in abnormality detection.
+
 This package is A3RT's UNOFFICIAL.
 
 
