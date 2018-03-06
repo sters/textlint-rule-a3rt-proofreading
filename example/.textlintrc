@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "a3rt-proofreading": {
+      "apikey": "CrnQGKHWR5SUo152crDGWyL5dkPu01B1",
+      "sensitivity": "low",
+      "score_threshold": 0.7,
+      "output_score": "true"
+    }
+  }
+}

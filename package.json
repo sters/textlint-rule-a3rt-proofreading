@@ -1,8 +1,23 @@
 {
   "name": "textlint-rule-a3rt-proofreading",
+  "author": "sters",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "[Unofficial] textlint rule that using A3RT Proofreading API.",
-  "main": "src/proofreading.js",
+  "main": "lib/proofreading.js",
+  "homepage": "https://github.com/sters/textlint-rule-a3rt-proofreading",
+  "keywords": [
+    "textlint",
+    "rule",
+    "a3rt"
+  ],
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "lint": "eslint .",
     "build": "textlint-scripts build",
@@ -10,29 +25,15 @@
     "prepublish": "npm run --if-present build",
     "test": "textlint-scripts test"
   },
-  "keywords": [
-    "textlint",
-    "rule",
-    "a3rt"
-  ],
-  "directories": {
-    "test": "test"
-  },
-  "author": "sters",
-  "license": "MIT",
   "devDependencies": {
-    "babel-plugin-add-module-exports": "^0.1.2",
+    "espower-babel": "^4.0.1",
     "eslint": "^4.4.0",
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-plugin-import": "^2.7.0",
-    "espower-babel": "^4.0.1",
-    "mocha": "^5.0.1",
-    "power-assert": "^1.0.0",
-    "textlint-scripts": "^1.2.2",
-    "textlint-tester": "^4.1.0"
+    "textlint-tester": "^4.1.0",
+    "textlint-scripts": "^1.2.2"
   },
   "dependencies": {
-    "textlint-rule-helper": "^1.1.3",
     "axios": "^0.18.0"
   },
   "peerDependencies": {

@@ -1,0 +1,13 @@
+from. http://efcl.info/2016/02/24/textlint-online-demo/
+
+textlint の公式サイトというがオンラインデモページを作成しました。
+上記にページにアクセスするとブラウザ上で textlint を動かして試すことができます。
+
+デフォルトだと textlint-rule-rousseau や textlint-rule-alex といった英語向けのルールが設定されていますが npm モジュール名を指定すれば任意のルールも読み込めます。
+例えば textlint-rule-spellcheck-tech-word と入れて "Add rule" するとこのルールが動的に追加できて試せます Browserify CDN で動的にビルドして読み込んでいるので Browserify でビルドできないルールは流石にブラウザ上では動かないです。
+(後、形態素解析とかやってるルールはそもそものファイルサイズが大きいです)
+
+このサイトは Deku v2 互換の decca と Redux で作りました。
+Deku v2 は最小限の API で Redux と合わせて使いやすい作りなので、初めて Redux を触るときは React(react-redux) と合わせて使うよりもシンプルで理解しやすいかもしれません。
+
+最近の textlint を 3 分で把握できるスライドも書いたので、どんな感じのものをかをぱっと知りたい方は見ると面白いかもしれません。

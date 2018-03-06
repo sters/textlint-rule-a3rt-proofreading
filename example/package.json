@@ -1,0 +1,17 @@
+{
+  "name": "textlint-rule-a3rt-proofreading-example",
+  "version": "1.0.0",
+  "description": "nop",
+  "main": "index.js",
+  "author": "sters",
+  "license": "MIT",
+  "scripts": {
+    "lint": "textlint test.txt"
+  },
+  "dependencies": {
+    "espower-babel": "^4.0.3",
+    "textlint": "^10.1.4",
+    "textlint-rule-a3rt-proofreading": "file:..",
+    "textlint-scripts": "^1.4.2"
+  }
+}
