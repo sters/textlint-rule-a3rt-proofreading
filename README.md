@@ -1,6 +1,8 @@
 # textlint-rule-a3rt-proofreading
 
-[textlint](https://github.com/textlint/textlint) rule that using [Yahoo Proofreading API](http://developer.yahoo.co.jp/webapi/jlp/kousei/v1/kousei.html).
+[![CircleCI](https://circleci.com/gh/sters/textlint-rule-a3rt-proofreading.svg?style=svg)](https://circleci.com/gh/sters/textlint-rule-a3rt-proofreading)
+
+[textlint](https://github.com/textlint/textlint) rule that using [A3RT Proofreading API](https://a3rt.recruit-tech.co.jp/product/proofreadingAPI/).
 
 
 ## Installation
