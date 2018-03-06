@@ -42,6 +42,8 @@ $ textlint --rule textlint-rule-a3rt-proofreading README.md
 
 You can set check sensitivity low / medium / high.
 
+set in `.textlintrc`.
+
 ```
 {
   "rules": {
@@ -54,6 +56,7 @@ You can set check sensitivity low / medium / high.
 
 ## Example
 
+See `example/` directory.
 
 
 ## Tests
