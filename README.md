@@ -4,6 +4,8 @@
 
 [textlint](https://github.com/textlint/textlint) rule that using [A3RT Proofreading API](https://a3rt.recruit-tech.co.jp/product/proofreadingAPI/).
 
+This package is A3RT's UNOFFICIAL.
+
 
 ## Installation
 
