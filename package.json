@@ -2,7 +2,7 @@
   "name": "textlint-rule-a3rt-proofreading",
   "author": "sters",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "[Unofficial] textlint rule that using A3RT Proofreading API.",
   "main": "lib/proofreading.js",
   "homepage": "https://github.com/sters/textlint-rule-a3rt-proofreading",

@@ -7,7 +7,7 @@
 > **A3RT Proofreading API**
 >
 > https://a3rt.recruit-tech.co.jp/product/proofreadingAPI/
-> 
+>
 > The Proofreading API uses LSTM to detect suspicious places as sentences.
 > The model learns the composition of the correct sentences, grammar, word flow from a large amount of Japanese job offer sentence data.
 > Discover spelling errors in abnormality detection.
@@ -17,7 +17,9 @@ This package is A3RT's UNOFFICIAL.
 
 ## Installation
 
-not published yet!
+```
+$ npm i textlint-rule-a3rt-proofreading --save
+```
 
 ## Usage
 
@@ -65,6 +67,12 @@ set in `.textlintrc`.
 ## Example
 
 See `example/` directory.
+
+```
+$ cd example/
+$ npm i
+$ npm run lint
+```
 
 
 ## Tests

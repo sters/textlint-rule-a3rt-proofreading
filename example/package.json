@@ -11,7 +11,7 @@
   "dependencies": {
     "espower-babel": "^4.0.3",
     "textlint": "^10.1.4",
-    "textlint-rule-a3rt-proofreading": "file:..",
+    "textlint-rule-a3rt-proofreading": "^1.0.1",
     "textlint-scripts": "^1.4.2"
   }
 }
